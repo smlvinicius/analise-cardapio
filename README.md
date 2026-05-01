@@ -1,4 +1,3 @@
-📊 Contexto
 
 Este proejeto tem como princípio analisar o cardápio de um restaurante, com o ojbetivo de extrair insights sobre preços e distribuição de produtos por categoria.
 
