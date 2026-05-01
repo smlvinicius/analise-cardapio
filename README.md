@@ -62,8 +62,61 @@ Remoção de duplicidades
 
 Exportação dos dados tratados para arquivo CSV    
 
-<img width="919" height="148" alt="image" src="https://github.com/user-attachments/assets/6d67f39d-ac59-48ab-bd88-c6463b7a73b5" />
+<img width="797" height="69" alt="image" src="https://github.com/user-attachments/assets/d2fd9600-b705-4541-8525-c4fe5852cd71" />
 
+
+
+# Modelagem de Dados    
+
+Criação de medidas em DAX:
+
+Preço Médio = AVERAGE(preco)    
+Preço Máximo = MAX(preco)    
+Preço Mínimo = MIN(preco)    
+Total de Produtos = COUNT(product_name)    
+
+Essas medidas alimentam os KPIs e gráficos do dashboard.
+
+# Visualização
+
+O dashboard foi estruturado com:    
+
+KPIs:    
+
+Preço médio    
+Produto mais caro    
+Produto mais barato    
+Total de produtos    
+
+Gráficos:    
+
+Média de preço por categoria    
+Comparação entre preço e quantidade    
+
+Elementos adicionais:    
+
+Ícones visuais    
+Insights destacados    
+Layout organizado e profissional    
+
+Foco em clareza, leitura rápida e storytelling.    
+
+<img width="2556" height="1385" alt="dashboard" src="https://github.com/user-attachments/assets/653375fd-c23d-4602-a351-afea2db04bda" />
+
+# 🧠 Pipeline de Dados
+
+
+O fluxo completo do projeto foi estruturado da seguinte forma:    
+
+Coleta de dados via web scraping    
+Tratamento e limpeza com Python (pandas)    
+Exportação para CSV    
+Importação no Power BI    
+Modelagem com DAX    
+Criação do dashboard    
+Geração de insights    
+
+Esse pipeline simula um fluxo real de engenharia e análise de dados.
 
 
 
