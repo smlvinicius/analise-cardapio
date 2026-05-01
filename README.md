@@ -37,5 +37,35 @@ Seleção dos campos relevantes (produto, preço, categoria)
 
 Esse processo permitiu simular um cenário real de ingestão de dados a partir de uma fonte externa.
 
+# Processo de ETL
+
+Foi implementado um fluxo simples de ETL para preparar os dados antes da análise.    
+
+
+🔹 Extração    
+
+Dados obtidos via API/web scraping
+
+<img width="908" height="173" alt="image" src="https://github.com/user-attachments/assets/c1bc6e1c-53b7-412f-99b0-5e49c5d2177e" /> 
+
+
+🔹 Transformação   
+
+Limpeza de dados inconsistentes    
+Conversão de tipos (preço → numérico)    
+Padronização de categorias    
+Remoção de duplicidades    
+
+<img width="1088" height="529" alt="image" src="https://github.com/user-attachments/assets/55c946bf-c8f1-45ec-8470-b132a00928b0" />
+
+🔹 Carga    
+
+Exportação dos dados tratados para arquivo CSV    
+
+<img width="919" height="148" alt="image" src="https://github.com/user-attachments/assets/6d67f39d-ac59-48ab-bd88-c6463b7a73b5" />
+
+
+
+
 
 
