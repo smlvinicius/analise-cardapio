@@ -1,5 +1,5 @@
 # 📊 Análise de Cardápio - Restaurante Detroit
-Este projeto tem como princípio analisar o cardápio de um restaurante, com o ojbetivo de extrair insights sobre preços e distribuição de produtos por categoria.
+Este projeto tem como princípio analisar o cardápio de um restaurante, com o objetivo de extrair insights sobre preços e distribuição de produtos por categoria.
 
 A análise busca responder perguntas como:
 
